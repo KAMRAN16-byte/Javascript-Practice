@@ -1,0 +1,101 @@
+{
+  "status" : "successful",
+  "data": [
+    {
+      "id": 954,
+      "name" : "Pen",
+      "category": "Stationary",
+      "price" : 70
+    },
+    {
+      "id": 955,
+      "name": "Notebook",
+      "category": "Stationary",
+      "price": 120
+    },
+    {
+      "id": 956,
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 850
+    },
+    {
+      "id": 957,
+      "name": "Desk Lamp",
+      "category": "Home Decor",
+      "price": 1450
+    },
+    {
+      "id": 958,
+      "name": "Stapler",
+      "category": "Stationary",
+      "price": 150
+    },
+    {
+      "id": 959,
+      "name": "Water Bottle",
+      "category": "Lifestyle",
+      "price": 499
+    },
+    {
+      "id": 960,
+      "name": "Highlighter Set",
+      "category": "Stationary",
+      "price": 220
+    },
+    {
+      "id": 961,
+      "name": "USB Flash Drive 64GB",
+      "category": "Electronics",
+      "price": 650
+    },
+    {
+      "id": 962,
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 1899
+    },
+    {
+      "id": 963,
+      "name": "Sticky Notes",
+      "category": "Stationary",
+      "price": 90
+    },
+    {
+      "id": 964,
+      "name": "Mechanical Pencil",
+      "category": "Stationary",
+      "price": 110
+    },
+    {
+      "id": 965,
+      "name": "Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 2499
+    },
+    {
+      "id": 966,
+      "name": "Coffee Mug",
+      "category": "Kitchenware",
+      "price": 350
+    },
+    {
+      "id": 967,
+      "name": "Scissors",
+      "category": "Stationary",
+      "price": 130
+    },
+    {
+      "id": 968,
+      "name": "Planner 2027",
+      "category": "Stationary",
+      "price": 550
+    },
+    {
+      "id": 969,
+      "name": "Desk Organizer",
+      "category": "Furniture & Storage",
+      "price": 799
+    }
+  ]
+}
