@@ -25,11 +25,27 @@ app.get('/student', async (req, res) => {
 
 app.get('/product', (req, res) => {
 
-    new fetch('https://dummyjson.com/products').then((res) => res.json()).then((data) => {
-        res.send(data);
-    })
-        .catch(err => console.log(err));
+    console.log("resquest accepted");
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://dummyjson.com/products')
+    xhr.send()
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            const data = JSON.parse(xhr.response);
+            res.send(data);
+        }
+    }
+
+    console.log("request served!")
 })
+// app.get('/product', (req, res) => {
+//
+//     console.log("resquest accepted");
+//     fetch('https://dummyjson.com/products').then((data) => data.json()).then((data) => {res.send(data)})
+//         .catch(err => console.log(err));
+//     console.log("request served!")
+// })
 
 
 app.listen(8000, 'localhost', () => {
